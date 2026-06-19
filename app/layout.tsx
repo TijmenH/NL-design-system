@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { AppHeader } from "@/components/AppHeader";
-import "@utrecht/page-header-css/dist/index.css";
+import "@utrecht/component-library-css/dist/index.css";
+import "./theme.css";
 
 export const metadata: Metadata = {
   title: "NL Design System",
@@ -15,7 +16,7 @@ type RootLayoutProps = {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="nl">
-      <body>
+      <body className="nl-design-system-theme">
         <AppHeader />
         {children}
       </body>

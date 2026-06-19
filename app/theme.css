@@ -1,0 +1,19 @@
+.nl-design-system-theme {
+  --utrecht-document-font-family: system-ui, sans-serif;
+  --utrecht-document-color: #1b1b1b;
+
+  --utrecht-page-padding-inline-start: 1.5rem;
+  --utrecht-page-padding-inline-end: 1.5rem;
+
+  --utrecht-page-header-background-color: #f7f9fc;
+  --utrecht-page-header-color: var(--utrecht-document-color);
+  --utrecht-page-header-border-block-end-color: #d8dee9;
+  --utrecht-page-header-border-block-end-width: 1px;
+  --utrecht-page-header-padding-block-start: 1rem;
+  --utrecht-page-header-padding-block-end: 1rem;
+
+  --utrecht-heading-1-font-family: var(--utrecht-document-font-family);
+  --utrecht-heading-1-font-size: 1.5rem;
+  --utrecht-heading-1-font-weight: 700;
+  --utrecht-heading-1-line-height: 1.25;
+}
