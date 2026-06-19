@@ -1,0 +1,15 @@
+.aside {
+  inline-size: 100%;
+}
+
+.surface {
+  --utrecht-surface-background-color: var(--nl-design-system-contact-background-color);
+  --utrecht-surface-color: var(--nl-design-system-contact-color);
+
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+  padding-block: 2rem;
+  padding-inline: 2rem;
+}
