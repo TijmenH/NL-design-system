@@ -11,6 +11,9 @@ importers:
       '@utrecht/component-library-react':
         specifier: ^14.0.1
         version: 14.0.1(@babel/runtime@7.29.7)(react-dom@19.2.7(react@19.2.7))(react@19.2.7)
+      '@utrecht/page-header-css':
+        specifier: ^3.0.2
+        version: 3.0.2
       next:
         specifier: ^16.2.9
         version: 16.2.9(react-dom@19.2.7(react@19.2.7))(react@19.2.7)

@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@utrecht/component-library-react": "^14.0.1",
+    "@utrecht/page-header-css": "^3.0.2",
     "next": "^16.2.9",
     "react": "^19.2.7",
     "react-dom": "^19.2.7"
